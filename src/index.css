@@ -11,14 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.btn {
-height: 10vh;
-width: 10vw;
-}
-
-.btn_purple {
-  height: 10vh;
-  width: 10vw;
-  background-color: purple;
-}
