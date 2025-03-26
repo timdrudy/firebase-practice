@@ -56,7 +56,7 @@ function App() {
 
       <button onClick={logout} className='btn'>Logout</button>
 
-      {loading ? 'loading...' : user.email}
+      {loading ? 'loading...' : <button className='btn_purple'> {user.email[0].toUpperCase()} </button>}
     </div>
   );
 }
